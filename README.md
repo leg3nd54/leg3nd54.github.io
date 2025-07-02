@@ -1,5 +1,5 @@
 # leg3nd54.github.io
-<!DOCTYPE html>
+<!Matrix hardware>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -75,8 +75,8 @@
                 <p>Have questions or need assistance? Feel free to reach out!</p>
                 <address>
                     <p><strong>Address:</strong> 123 Main Street, Anytown, AB 12345</p>
-                    <p><strong>Phone:</strong> <a href="tel:+1234567890">(123) 456-7890</a></p>
-                    <p><strong>Email:</strong> <a href="mailto:info@yourhardwarestore.com">info@yourhardwarestore.com</a></p>
+                    <p><strong>Phone:</strong> <a href="tel:0652717647">(123) 456-7890</a></p>
+                    <p><strong>Email:</strong> <a href="mailto:ajoamko@yahoo.com">info@yourhardwarestore.com</a></p>
                 </address>
                 <div class="map-placeholder">
                     <p>Map to our location coming soon!</p>
