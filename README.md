@@ -1,94 +1,121 @@
 # leg3nd54.github.io
-<!Matrix hardware>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Hardware Store - Quality Tools & Supplies</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="https://via.placeholder.com/32x32?text=🛠️" type="image/x-icon">
+    <title>Matrix Hardware</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #222;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        .product-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .product-gallery img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+        .about, .contact, .services {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+    </style>
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1>Your Hardware Store</h1>
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#products">Products</a></li>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+        <h1>Matrix Hardware</h1>
+        <p>Your trusted partner for all hardware tools and supplies</p>
     </header>
 
-    <main>
-        <section id="home" class="hero">
-            <div class="container">
-                <h2>Your One-Stop Shop for All Hardware Needs</h2>
-                <p>Quality tools, reliable materials, and expert advice for every project.</p>
-                <a href="#products" class="btn">Explore Our Products</a>
-            </div>
-        </section>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
-        <section id="products" class="products-section">
-            <div class="container">
-                <h2>Our Products</h2>
-                <div class="product-grid">
-                    <div class="product-item">
-                        <img src="https://via.placeholder.com/200x150?text=Power+Tools" alt="Power Tools">
-                        <h3>Power Tools</h3>
-                        <p>Drills, saws, grinders & more.</p>
-                    </div>
-                    <div class="product-item">
-                        <img src="https://via.placeholder.com/200x150?text=Hand+Tools" alt="Hand Tools">
-                        <h3>Hand Tools</h3>
-                        <p>Wrenches, hammers, screwdrivers.</p>
-                    </div>
-                    <div class="product-item">
-                        <img src="https://via.placeholder.com/200x150?text=Building+Materials" alt="Building Materials">
-                        <h3>Building Materials</h3>
-                        <p>Lumber, pipes, electrical supplies.</p>
-                    </div>
-                    <div class="product-item">
-                        <img src="https://via.placeholder.com/200x150?text=Hardware+Fasteners" alt="Hardware Fasteners">
-                        <h3>Fasteners</h3>
-                        <p>Nails, screws, bolts, anchors.</p>
-                    </div>
-                </div>
-                <p class="cta-more">Visit our store for a wider selection!</p>
-            </div>
-        </section>
+    <section id="about" class="about">
+        <h2>About Matrix Hardware</h2>
+        <p>Matrix Hardware is your one-stop shop for all kinds of tools and building supplies. From screwdrivers and hammers to drills and power tools, we stock only the highest quality items to make sure your work is efficient and long-lasting. Established with the goal to provide affordable yet premium hardware equipment, we have been serving our community with pride and dedication.</p>
+    </section>
 
-        <section id="about" class="about-section">
-            <div class="container">
-                <h2>About Us</h2>
-                <p>Welcome to **Your Hardware Store**! We've been serving the community with top-notch hardware and unparalleled customer service since [Year Established]. Our mission is to provide you with everything you need to tackle your projects, big or small, with confidence.</p>
-                <p>We pride ourselves on our wide selection, competitive prices, and knowledgeable staff who are always ready to help you find exactly what you're looking for.</p>
-            </div>
-        </section>
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Wide range of hand tools and power tools</li>
+            <li>Expert advice for DIY and professional projects</li>
+            <li>Bulk supply for contractors and companies</li>
+            <li>Repair and maintenance for selected tools</li>
+            <li>Special orders for rare or custom equipment</li>
+        </ul>
+    </section>
 
-        <section id="contact" class="contact-section">
-            <div class="container">
-                <h2>Contact Us</h2>
-                <p>Have questions or need assistance? Feel free to reach out!</p>
-                <address>
-                    <p><strong>Address:</strong> 123 Main Street, Anytown, AB 12345</p>
-                    <p><strong>Phone:</strong> <a href="tel:0652717647">(123) 456-7890</a></p>
-                    <p><strong>Email:</strong> <a href="mailto:ajoamko@yahoo.com">info@yourhardwarestore.com</a></p>
-                </address>
-                <div class="map-placeholder">
-                    <p>Map to our location coming soon!</p>
-                </div>
-            </div>
-        </section>
-    </main>
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-gallery">
+            <img src="https://cdn.pixabay.com/photo/2017/03/01/21/27/screwdriver-2113050_1280.jpg" alt="Screwdriver">
+            <img src="https://cdn.pixabay.com/photo/2016/03/05/19/02/hammer-1239436_1280.jpg" alt="Hammer">
+            <img src="https://cdn.pixabay.com/photo/2014/04/03/11/54/drill-311261_1280.png" alt="Power Drill">
+            <img src="https://cdn.pixabay.com/photo/2015/02/05/08/12/wrench-624171_1280.jpg" alt="Wrench">
+            <img src="https://cdn.pixabay.com/photo/2017/07/06/15/01/tape-measure-2472130_1280.jpg" alt="Tape Measure">
+            <img src="https://cdn.pixabay.com/photo/2016/05/05/02/37/toolbox-1374861_1280.jpg" alt="Toolbox">
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:ajoamko@yahoo.com">ajoamko@yahoo.com</a></p>
+        <p>Phone: <a href="tel:0652717647">0652-717-647</a></p>
+        <p>Address: Matrix Hardware Store, Zanzibar</p>
+    </section>
 
     <footer>
-        <div class="container">
-            <p>&copy; 2025 Your Hardware Store. All rights reserved.</p>
-        </div>
+        <p>&copy; 2025 Matrix Hardware. All Rights Reserved.</p>
     </footer>
 </body>
 </html>
+
