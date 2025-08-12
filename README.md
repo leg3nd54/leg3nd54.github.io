@@ -105,33 +105,39 @@
   <section id="products">
     <h2>Our Products</h2>
     <div class="product-gallery">
+      <!-- Screwdriver -->
       <img
-        src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD..."
+        src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD... (full base64 here)"
         alt="Screwdriver"
         title="Screwdriver"
       />
+      <!-- Hammer -->
       <img
-        src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD..."
+        src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD... (full base64 here)"
         alt="Hammer"
         title="Hammer"
       />
+      <!-- Power Drill -->
       <img
-        src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD..."
+        src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD... (full base64 here)"
         alt="Power Drill"
         title="Power Drill"
       />
+      <!-- Wrench -->
       <img
-        src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD..."
+        src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD... (full base64 here)"
         alt="Wrench"
         title="Wrench"
       />
+      <!-- Tape Measure -->
       <img
-        src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD..."
+        src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD... (full base64 here)"
         alt="Tape Measure"
         title="Tape Measure"
       />
+      <!-- Toolbox -->
       <img
-        src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD..."
+        src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD... (full base64 here)"
         alt="Toolbox"
         title="Toolbox"
       />
