@@ -96,12 +96,12 @@
     <section id="products">
         <h2>Our Products</h2>
         <div class="product-gallery">
-            <img src="https://cdn.pixabay.com/photo/2017/03/01/21/27/screwdriver-2113050_1280.jpg" alt="Screwdriver">
-            <img src="https://cdn.pixabay.com/photo/2016/03/05/19/02/hammer-1239436_1280.jpg" alt="Hammer">
-            <img src="https://cdn.pixabay.com/photo/2014/04/03/11/54/drill-311261_1280.png" alt="Power Drill">
-            <img src="https://cdn.pixabay.com/photo/2015/02/05/08/12/wrench-624171_1280.jpg" alt="Wrench">
-            <img src="https://cdn.pixabay.com/photo/2017/07/06/15/01/tape-measure-2472130_1280.jpg" alt="Tape Measure">
-            <img src="https://cdn.pixabay.com/photo/2016/05/05/02/37/toolbox-1374861_1280.jpg" alt="Toolbox">
+            <img src="https://images.unsplash.com/photo-1586861635167-1b2e7b2b39c4?w=1200" alt="Screwdriver">
+            <img src="https://images.unsplash.com/photo-1616627984375-61a2e3c6f4cb?w=1200" alt="Hammer">
+            <img src="https://images.unsplash.com/photo-1605733160314-4e1d31b9b9c5?w=1200" alt="Power Drill">
+            <img src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=1200" alt="Wrench">
+            <img src="https://images.unsplash.com/photo-1606813902913-08ef98c3aab2?w=1200" alt="Tape Measure">
+            <img src="https://images.unsplash.com/photo-1616627563020-cd1e3a80bb18?w=1200" alt="Toolbox">
         </div>
     </section>
 
@@ -117,4 +117,3 @@
     </footer>
 </body>
 </html>
-
